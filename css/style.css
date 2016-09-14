@@ -1,0 +1,80 @@
+/*Global*/
+body{
+  background-image: url(../img/matte-black-1300.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#fff;
+}
+.intro-hr{
+  color:#1730AD;
+}
+/*---------------Header------------*/
+/*Navbar*/
+#top-bar{
+  background-color: #161615;
+  border-color:transparent;
+}
+.navbar-default .navbar-nav>li>a{
+  color:#1730AD;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  background-color:#1C1C1B;
+  color:#419BF4!important;
+  text-shadow: 2px 1px 20px #419BF4;
+
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color:#1C1C1B;
+}
+.dropdown-menu{
+  background-color:#1C1C1B;
+}
+/*-------------Index-------------*/
+/*carousel*/
+
+/*Welcome*/
+.welcome{
+  background-color:transparent;
+}
+.myname{
+  font-size:35px!important;
+  color:#419BF4;
+  text-shadow: 2px 1px 30px #122BBA;
+}
+/*Hobbiest paprgraph*/
+.bg{
+  background-color: rgba(35, 35, 36, 0.65);
+  padding: 20px;
+}
+/*Hobby Tabs*/
+.icon-hobby{
+  font-size: 40px;
+  background-color:#292929 ;
+  border-radius:50%;
+  border:3px solid #191918;
+}
+.icon-hobby>a{
+  color:#1730AD;
+}
+.icon-hobby>a:hover,.icon-hobby:hover{
+  color:#419BF4;
+  background-color:#363636;
+}
+.hobby-seperator{
+  border-left:1px solid #1730AD;
+  border-right: 1px solid #1730AD;
+}
+
+/*--------------Footer------------------------*/
+.bot-black{
+  background-color: #161615;
+  font-size: 16px;
+  margin-top: 30px;
+  padding: 15px;
+  color:#419BF4;
+}
+
+.bot-border{
+  border-left: 1px solid #1730AD;
+}
